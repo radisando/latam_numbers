@@ -28,3 +28,42 @@ This dashboard focuses on the following indicators:
 - Human Development Index (HDI)
 
 Data was collected, cleaned, and harmonized by myself using Python notebook to ensure comparability across countries.
+
+
+### 📚 Data Sources
+
+- World Bank – Population, GDP, GDP per Capita, Life Expectancy
+
+- World Happiness Report (2024) – Happiness Index
+
+- UNDP Human Development Reports (HDI)
+
+All sources are publicly available and widely used in economic and social analysis.
+
+
+### 🖥️ Python Notebooks
+
+The Python workflow includes:
+
+- Manual mapping of Latin American countries to ISO codes
+
+- Data retrieval from the World Bank API (Population, GDP, Life Expectancy)
+
+- Integration of external datasets (Happiness Index, HDI)
+
+- Data cleaning, formatting, and validation
+
+- Selection of the latest available year per indicator (either 2023 or 2024)
+
+- Export of Tableau-ready datasets as CSV
+
+
+### 💻 Tableau Integration
+
+- Loaded the final CSV file into Tableau
+
+- Built individual charts per indicator
+
+- Used parameters and control visibility to switch between metrics
+
+- Combined all views into a single interactive dashboard
